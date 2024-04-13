@@ -29,3 +29,21 @@ This repository contains an end-to-end (e2e) testing suite for a Magento-based w
 3. Install dependencies by running `npm install`.
 4. Execute end-to-end tests using `npm run test:e2e`.
 5. View test execution reports in the `allure-reports` folder.
+
+## Install dependencies
+    npm install
+
+## Execute end-to-end tests 
+    npm run test
+
+## Use tags to run a tagged feature file or a collection of feature files
+npm run test --TAGS="@regression"
+
+## Reports
+Upon completion of the test run, the report will be automatically generated and accessible at /allure-results.
+
+
+## Test result screenshot 
+
+![Screenshot 2024-04-13 at 20 09 52](https://github.com/desaikeyur7/Magento/assets/30195677/ba64dcd9-d3f9-4994-b333-119ba99c5295)
+
