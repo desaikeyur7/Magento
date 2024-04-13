@@ -37,7 +37,7 @@ This repository contains an end-to-end (e2e) testing suite for a Magento-based w
     npm run test
 
 ## Use tags to run a tagged feature file or a collection of feature files
-npm run test --TAGS="@regression"
+    npm run test --TAGS="@regression"
 
 ## Reports
 Upon completion of the test run, the report will be automatically generated and accessible at /allure-results.
